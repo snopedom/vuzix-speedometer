@@ -7,7 +7,9 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:id="@+id/camera_preview"></RelativeLayout>
+        android:id="@+id/camera_preview">
+
+    </RelativeLayout>
 
     <TextView
         android:layout_width="match_parent"
@@ -23,5 +25,20 @@
         android:alpha="0.4"
         android:layout_centerHorizontal="true"
         android:singleLine="false" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Km/h"
+        android:id="@+id/textView"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textColor="#ff0000"
+        android:width="100dp"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:height="50dp" />
 
 </RelativeLayout>
