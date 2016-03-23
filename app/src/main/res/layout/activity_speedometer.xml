@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/camera_preview"></RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center|top"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="0"
+        android:id="@+id/speedView"
+        android:layout_alignParentTop="false"
+        android:textSize="250dp"
+        android:textColor="#2bff00"
+        android:textStyle="bold"
+        android:alpha="0.4"
+        android:layout_centerHorizontal="true"
+        android:singleLine="false" />
+
+</RelativeLayout>
